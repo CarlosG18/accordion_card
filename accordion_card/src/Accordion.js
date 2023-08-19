@@ -1,5 +1,7 @@
 import './css/Accordion.css'
 import AccordionElement from './AccordionElement';
+import caixa from './images/illustration-box-desktop.svg'
+import woman from './images/illustration-woman-online-desktop.svg'
 
 var titles = [
     'How many team members can I invite?',
@@ -21,7 +23,12 @@ function Accordion(){
     return (
         <div className="Accordion">
             <div className="Accordion-illustration">
-
+                <div className='Box'>
+                    <img src={caixa} alt="box-icon"/>
+                </div>
+                <div className='Woman'>
+                    <img src={woman} alt="woman-illustration"/>
+                </div>
             </div>
             <div className="Accordion-element" >
                 <h1>FAQ</h1>

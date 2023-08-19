@@ -1,5 +1,43 @@
 .Accordion{
     background-color: aliceblue;
-    padding: 20px;
     border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px rgba(64, 64, 64, 0.394);
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
 }
+
+.Accordion-element{
+    margin: 0 80px;
+    max-width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+}
+
+.Accordion-illustration{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-position: 100% 67.5%;
+    
+}
+
+.Box{
+    position: absolute;
+    top: 241px;
+    left: 39px;
+    z-index: 1;
+    overflow: visible !important;
+}
+
+.Woman{
+    position: absolute;
+    top: 50%;
+    left: -19%;
+    transform: translateY(-50%);
+}
+
