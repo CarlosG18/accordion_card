@@ -31,7 +31,7 @@ function Accordion(){
                 </div>
             </div>
             <div className="Accordion-element" >
-                <h1>FAQ</h1>
+                <h1 className='title'>FAQ</h1>
                 <AccordionElement title={titles[0]} message={messages[0]}/>
                 <AccordionElement title={titles[1]} message={messages[1]}/>
                 <AccordionElement title={titles[2]} message={messages[2]}/>
